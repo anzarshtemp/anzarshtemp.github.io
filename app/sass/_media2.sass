@@ -9,13 +9,16 @@
 		width: 100%
 	.az-info-soc
 		float: left
+	.az-info-soc, .az-info-left
+		width: 100%
+		text-align: center
 	/**/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	.az-info-soc, .az-info-left
-		width: 100%
-		text-align: center
+	.az-menu-left
+		>ul
+			display: none
 	/**/
 	
 
@@ -39,6 +42,19 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.az-menu-left
+		max-width: 45px
+		padding-right: 0
+	.az-search
+		padding-left: 15px
+		min-width: calc(100% - 45px)
+		input[type="text"]
+			padding: 0 35px 0 37px
+	.az-sfield
+		width: 100%
+	input[type="submit"].az-submit-md
+		display: none !important
+
 	/**/
 
 
@@ -56,6 +72,8 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
+	button[type="submit"].az-submit-xs
+		display: none
 	/**/
 
 
