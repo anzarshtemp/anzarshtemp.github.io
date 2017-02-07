@@ -1,0 +1,75 @@
+/*select*/
+.az-select{
+	border: 2px solid #37474f;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	max-width: 390px;
+	/*overflow: hidden;*/
+}
+.az-select select{
+	height: 46px;
+	width: 100%;
+
+	border: none;
+	background: transparent;
+	outline: none;
+	padding: 0 15px;
+	letter-spacing: 0.02em;
+	font-family: "PT Sans";
+	font-size: 14px;
+	cursor: pointer;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+}
+.az-select select::-ms-expand {
+    display: none;
+}
+.az-select .az-options{
+	display: none;
+	top: calc(100% + 2px);
+	left: -2px;
+	width: calc(100% + 4px);
+	position: absolute;
+	background: rgba(0,0,0,0.8);
+	border-radius: 2px;
+    z-index: 6;
+}
+.az-select .az-options div[data-val]{
+	font-size: 14px;
+	font-family: "PT Sans";
+	color: #fff;
+	padding: 0 15px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	cursor: pointer;
+}
+.az-select .az-options div[data-val]:hover{
+	background: rgba(255,255,255,0.1);
+}
+.az-select::before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 0px;
+	width: 46px;
+	height: 46px;
+	background: #37474f url(../img/select-arrow.png) no-repeat center center;
+	z-index: 1;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.az-select-focus::before{
+	transform: translate(0, -50%) rotate(180deg);
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	/*background: url(../img/select-arrow-focus.png) no-repeat top left;*/
+}
+.az-select_style{
+	position: relative;
+	z-index: 2;
+}
+/*select*/
