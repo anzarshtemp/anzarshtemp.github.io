@@ -30,21 +30,6 @@
 
 <body>
 
-	<!-- <div class="container">
-
-		<div class="row">
-
-			<div class="col-sm-8 col-sm-offset-2">
-				
-				<img class="img-responsive" src="img/preview.jpg" alt="Start HTML5 Template">
-				
-				<?php //require_once('includes/block1.php'); ?>
-
-			</div>
-			
-		</div>
-
-	</div> -->
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/block1.php'); ?>
 	<?php require_once('includes/block2.php'); ?>
@@ -55,7 +40,6 @@
 	<?php require_once('includes/block7.php'); ?>
 	<?php require_once('includes/block8.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
-
 
 	<script src="js/scripts.min.js"></script>
 
