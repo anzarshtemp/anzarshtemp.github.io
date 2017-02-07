@@ -35,7 +35,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="ah-maincat-wrapp ah-maincat-lit1">
 					<div class="ah-maincat-imgbox1">
-						<img src="img/b3_3.png" class="img-responsive" alt="flexible communications">
+						<img src="img/b3_3.png" style="width: 86px; height: 86px" alt="flexible communications">
 					</div>
 					<div class="ah-maincat-textbox1">
 						<span class="ah-maincat-span">Гибкие связи</span>
