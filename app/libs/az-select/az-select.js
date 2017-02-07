@@ -3,7 +3,7 @@ $(function() {
 	$('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
-        var str = '<div class="az-options">';
+        var str = '<div class="az-options clearfix">';
         select.find('option').each(function(){
             str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
         });

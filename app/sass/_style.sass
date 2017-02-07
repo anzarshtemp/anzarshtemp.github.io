@@ -7,4 +7,168 @@
 	max-width: 1780px
 
 .az-header
-	padding: 47px 0
+	padding: 37px 0
+
+.az-logo
+	img
+		max-width: 100%
+
+/*select*/
+.az-select
+	border: 2px solid #37474f
+	position: relative
+	cursor: pointer
+	border-radius: 4px
+	max-width: 390px
+	/*overflow: hidden;*/
+
+.az-select select
+	height: 46px
+	width: 100%
+	border: none
+	background: transparent
+	outline: none
+	padding: 0 25px
+	letter-spacing: 0.02em
+	font-family: "PT Sans"
+	font-size: 20px
+	cursor: pointer
+	-webkit-appearance: none
+	-moz-appearance: none
+
+.az-select select::-ms-expand
+	display: none;
+
+.az-select .az-options
+	display: none
+	top: calc(100% - 3px)
+	left: -2px
+	width: calc(100% + 4px)
+	position: absolute
+	background: #37474f//rgba(0,0,0,0.8)
+	border-radius: 2px
+	padding: 40px 13px
+	z-index: 6
+
+.az-select .az-options div[data-val]
+	font-size: 20px
+	font-family: "PT Sans"
+	color: #fff
+	padding: 0 15px
+	line-height: 28px
+	letter-spacing: 0.02em
+	cursor: pointer
+	float: left
+	width: 50%
+
+.az-select .az-options div[data-val]:hover
+	// background: rgba(255,255,255,0.1)
+	color: #fecc00
+
+.az-select::before
+	content: ''
+	position: absolute
+	top: 50%
+	transform: translate(0, -50%)
+	right: 0px
+	width: 46px
+	height: 46px
+	background: #37474f url(../img/select-arrow.png) no-repeat center center
+	z-index: 1
+	border-top-right-radius: 2px
+	border-bottom-right-radius: 2px
+
+.az-select-focus::before
+	transform: translate(0, -50%) rotate(180deg)
+	border-top-left-radius: 2px
+	border-bottom-left-radius: 2px
+	border-top-right-radius: 0px
+	border-bottom-right-radius: 0px
+	/*background: url(../img/select-arrow-focus.png) no-repeat top left;*/
+
+.az-select_style
+	position: relative
+	z-index: 2
+/*select*/
+
+.az-city
+	padding-left: 35px
+	display: inline-block
+	font-size: 20px
+	font-family: "PT Sans"
+	position: relative
+	color: #37474f
+	&::before
+		content: ''
+		position: absolute
+		top: 50%
+		transform: translate(0, -50%)
+		left: 0
+		width: 23px
+		height: 30px
+		background: url(../img/az-baloon.png) no-repeat left top
+
+.az-phone
+	padding-left: 45px
+	display: inline-block
+	font-size: 24px
+	font-family: "PT Sans Bold"
+	position: relative
+	color: #37474f
+	&::before
+		content: ''
+		position: absolute
+		top: 50%
+		transform: translate(0, -50%)
+		left: 5px
+		width: 20px
+		height: 34px
+		background: url(../img/az-phone.png) no-repeat left top
+
+.az-email
+	padding-left: 45px
+	display: inline-block
+	font-size: 20px
+	font-family: "PT Sans"
+	position: relative
+	color: #37474f
+	&::before
+		content: ''
+		position: absolute
+		top: 50%
+		transform: translate(0, -50%)
+		left: 0
+		width: 31px
+		height: 23px
+		background: url(../img/az-envelope.png) no-repeat left top
+
+.az-info-soc
+	float: right
+	a
+		display: inline-block
+		width: 48px
+		height: 48px
+		margin-left: 7px
+		transition: all .5s ease-in-out
+		&:hover
+			opacity: 0.7
+		&:first-child
+			margin-left: 0
+.az-vk
+	background: url(../img/az-vk.png) no-repeat left top
+.az-facebook
+	background: url(../img/az-facebook.png) no-repeat left top
+.az-ok
+	background: url(../img/az-ok.png) no-repeat left top
+.az-instagram
+	background: url(../img/az-instagram.png) no-repeat left top
+
+
+/*margin*/
+.az-margin-top30
+	margin-top: 30px
+.az-margin-top10
+	margin-top: 10px
+.az-margin-top8
+	margin-top: 8px
+
