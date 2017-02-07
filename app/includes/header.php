@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="az-logo az-margin-top10">
-					<a href="/"><img src="img/logo.png" alt="logo"></a>
+					<a href="/"><img src="img/logo.svg" alt="logo"></a>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -38,3 +38,43 @@
 		</div>
 	</div>
 </header>
+
+<section class="az-menu">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 clearfix">
+				<div class="az-menu-left" id="block-menu">
+					<a href="#mobile-menu" class="toggle-mnu hidden-lg"><span></span></a>
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">О заводе</a></li>
+						<li>
+							<a href="#">Продукция</a>
+							<ul class="az-submenu">
+								<li><a href="#">Товар 1</a></li>
+								<li><a href="#">Товар 2</a></li>
+								<li><a href="#">Товар 3</a></li>
+								<li><a href="#">Товар 4</a></li>
+								<li><a href="#">Товар 5</a></li>
+								<li><a href="#">Товар 6</a></li>
+								<li><a href="#">Товар 7</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Прайс-лист</a></li>
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="az-search">
+					<form action="/">
+						<input type="submit" value="Поиск" class="az-submit-md">
+						<span class="az-sfield">
+							<input type="text" name="s" id="" placeholder="Введите текст для поиска">
+							<button type="submit" class="az-submit-xs"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</span>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

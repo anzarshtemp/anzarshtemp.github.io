@@ -1,7 +1,19 @@
 $(function() {
-
-
-
+	$('#block-menu').children('ul').after('<div id="mobile-menu">').clone().appendTo('#mobile-menu');
+	$('#mobile-menu').mmenu({
+		extensions : [ 'widescreen', 'theme-white', 'effect-menu-slide', 'pagedim-black' ],
+		navbar: {
+			title: "Меню",
+			// titleLink: "/"
+		}
+	});
+	$(".toggle-mnu").click(function() {
+		$(this).addClass("on");
+	});
+	var api = $("#mobile-menu").data("mmenu");
+	api.bind("closed", function () {
+		$(".toggle-mnu").removeClass("on");
+	});
 	// $('.az-mobile-menu-click').click(function(){
 	// 		$(this).next('.az-drop-menu').toggleClass('active');
 	// 		return false;
