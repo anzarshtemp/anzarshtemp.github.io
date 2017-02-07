@@ -3,19 +3,22 @@
 <section class="ah-advantages" id="tabs">
     <div class="container-fluid">
     	<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-				<ul class="tabs-navigation">
-					<li><a href="#tab-1">В 3 раза прочнее</a></li>
-					<li><a href="#tab-2">30% экономия</a></li>
-					<li><a href="#tab-3">Диэлектрик</a></li>
-					<li><a href="#tab-4">80 лет службы</a></li>
-					<li><a href="#tab-5">В 10 раз легче</a></li>
-					<li><a href="#tab-6">Не ржавеет</a></li>
-					<li><a href="#tab-7">Любая длина</a></li>
-					<li><a href="#tab-8">Устойчивость к температурам</a></li>
-				</ul>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 no-padd">
+				<div class="ah-advantages-wrapp">
+					<span class="ah-advantages-title">Преимущества</span>
+					<ul class="tabs-navigation">
+						<li><a href="#tab-1">В 3 раза прочнее</a></li>
+						<li><a href="#tab-2">30% экономия</a></li>
+						<li><a href="#tab-3">Диэлектрик</a></li>
+						<li><a href="#tab-4">80 лет службы</a></li>
+						<li><a href="#tab-5">В 10 раз легче</a></li>
+						<li><a href="#tab-6">Не ржавеет</a></li>
+						<li><a href="#tab-7">Любая длина</a></li>
+						<li><a href="#tab-8">Устойчивость к температурам</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 no-padd">
 				<div class="tabs-container">
 			        <div id="tab-1">
 			            Контент 1 таба

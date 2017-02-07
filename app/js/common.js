@@ -78,4 +78,29 @@ $(function() {
 	// });
 	// Custom JS
 
+	//****************** Tabs **********************
+
+	var tabContainers = $('.tabs-container > div');
+    tabContainers.hide().filter(':first').show();
+ 
+    $('ul.tabs-navigation li a').click(function(){
+        tabContainers.hide();
+        tabContainers.filter(this.hash).show();
+        $('ul.tabs-navigation a').parent('li').removeClass('selected');
+        $(this).parent('li').addClass('selected');
+        return false;
+        }).filter(':first').click();
+          
+    function pressNextTab(){
+        if ($('ul.tabs-navigation li.selected').hasClass('last')){
+            $('ul.tabs-navigation li:first').find('a').trigger('click');
+            }else{
+                $('ul.tabs-navigation li.selected').next('li').find('a').trigger('click');
+                }
+        }
+    // $('ul.tabs-navigation li:last').addClass('last');
+    // var int = setInterval(pressNextTab, 5000);
+
+	//****************** Tabs **********************
+
 });
