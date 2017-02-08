@@ -101,6 +101,22 @@ $(function() {
     // $('ul.tabs-navigation li:last').addClass('last');
     // var int = setInterval(pressNextTab, 5000);
 
-	//****************** Tabs **********************
+	//MagnificPopup
+
+	$('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+        
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+    });
 
 });
