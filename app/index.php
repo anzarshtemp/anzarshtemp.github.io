@@ -43,13 +43,13 @@
 
 	<div class="hidden">
 		<form id="small-dialog" class="zoom-anim-dialog common-form">
-			<span class="form-title">Получите бесплатную консультацию по стоимости и срокам прямо сейчас</span>
-			<span class="form-subtitle">Оставьте заявку и наш специалист перезвонит вам</span>
-			<label>Введите Ваш телефон</label>
-			<input type="text" name="uname">
-			<label>Введите Ваш e-mail (желательно)</label>
-			<input type="text" name="email">
-			<input type="submit" value="Получить консультацию">
+			<div class="ah-upimg">
+				<img src="img/ah-popimg.png" style="width: 110px; height: 120px;" alt="ah-popimg.png">
+			</div>
+			<span class="form-title">ОСТАВЬТЕ ЗАЯВКУ</span>
+			<span class="form-subtitle">И НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В ТЕЧЕНИИ ОДНОЙ МИНУТЫ</span>
+			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
+			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
 		</form>
 	</div>
 
