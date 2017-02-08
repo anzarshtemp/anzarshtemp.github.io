@@ -19,6 +19,22 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
+	.az-tab-switcher
+		display: block
+		position: absolute
+		left: 50%
+		transform: translate(-50%, 0)
+		bottom: 30px
+		>div
+			width: 19px
+			height: 19px
+			background: url(../img/dot-yellow.png) no-repeat center
+			display: inline-block
+			margin: 0 7px
+			&.active, &:hover
+				background: url(../img/dot-white.png) no-repeat center
+			*
+				display: none
 	.az-slide-title
 		font-size: 67px
 	.az-slider
@@ -73,6 +89,8 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.az-tab-inner
+		text-align: center
 	.az-slide-title
 		font-size: 35px
 		line-height: 55px
@@ -101,6 +119,9 @@
 	.az-price-through
 		&::before
 			top: 52%
+	.az-video-slider, .az-doc-slider
+		.owl-prev, .owl-next
+			display: none !important
 	/**/
 
 
@@ -135,5 +156,49 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
+	/**/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1865px)
+	.az-video-slider
+		padding-top: 157px
+		padding-bottom: 70px
+		.owl-prev
+			position: absolute
+			top: calc(50% - 52px)
+			left: -58px
+			border-radius: 50%
+			transform: translate(0, -50%)
+			width: 50px
+			height: 50px
+			background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-left.png) no-repeat 13px center
+		.owl-next
+			position: absolute
+			top: calc(50% - 52px)
+			right: -58px
+			border-radius: 50%
+			transform: translate(0, -50%)
+			width: 50px
+			height: 50px
+			background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-right.png) no-repeat 20px center
+	.az-doc-slider
+		.owl-prev
+			position: absolute
+			top: 50%
+			left: -58px
+			border-radius: 50%
+			transform: translate(0, -50%)
+			width: 50px
+			height: 50px
+			background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-left.png) no-repeat 13px center
+		.owl-next
+			position: absolute
+			top: 50%
+			right: -58px
+			border-radius: 50%
+			transform: translate(0, -50%)
+			width: 50px
+			height: 50px
+			background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-right.png) no-repeat 20px center
 	/**/
 

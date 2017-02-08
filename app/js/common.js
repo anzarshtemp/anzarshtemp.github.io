@@ -24,7 +24,59 @@ $(function() {
 		dots: true,
 		margin: 0
 	});
+	$('.owl-carousel2').owlCarousel({
+		responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            992:{
+                items:3
+            }
+        },
+		dots: true,
+		margin: 40,
+		loop: true,
+		nav: true,
+		navText: ["",""]
+	});
+	$('.owl-carousel3').owlCarousel({
+		responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            992:{
+            	items:4
+            }
+        },
+		dots: true,
+		margin: 40,
+		loop: true,
+		nav: true,
+		navText: ["",""]
+	});
 
+	/*my az-tabs*/
+	$('.az-tab-switcher>div').click(function(){
+		$('.az-tab-switcher>div').removeClass('active');
+		$('.az-tab-content>div').removeClass('active');
+		$(this).addClass('active');
+		var item;
+		$('.az-tab-switcher>div').each(function(i){
+			if($(this).hasClass('active')){
+				item = i;
+			}
+		});
+		$('.az-tab-content>div').eq(item).addClass('active');
+	});
 	// $('#az-modal').click(function(){
 	// 	$('#az-popup').modal('show');
 	// 	// alert(1);
