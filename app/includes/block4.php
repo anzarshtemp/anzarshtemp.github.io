@@ -13,7 +13,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -25,7 +25,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -37,7 +37,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -49,7 +49,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -62,7 +62,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -74,7 +74,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -86,7 +86,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>
@@ -98,7 +98,7 @@
 						<img src="img/b4_img.jpg" class="img-responsive" alt="composite rebar">
 					</div>
 					<div class="ah-product-textbox">
-						<span class="ah-product-spantitle">Композитная<br>арматура 1</span>
+						<span class="ah-product-spantitle">Композитная<br class="ah-block4-br">арматура 1</span>
 						<span class="ah-product-text">3 000 руб.</span>
 						<a href="#" class="ah-product-link">ЗАКАЗАТЬ</a>
 					</div>

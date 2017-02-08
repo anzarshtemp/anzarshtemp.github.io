@@ -138,6 +138,7 @@ h2
 	font-size: 21px
 	line-height: 25px
 	font-family: "PT Sans Bold", sans-serif
+	text-align: center
 	color: #37474f
 	margin-top: 12px
 	margin-bottom: 11px
@@ -147,6 +148,7 @@ h2
 	font-size: 21px
 	line-height: 21px;
 	font-family: "PT Sans", sans-serif
+	text-align: center
 .ah-product-link
 	display: block
 	outline: none
@@ -164,10 +166,69 @@ h2
 .tabs-navigation
 	margin: 0
 	padding: 0
-.ah-advantages-wrapp
-	background: #37474f
-	padding: 20px 70px
-
+	li
+		display: block
+		background: #37474f //1
+		a
+			position: relative
+			display: inline-block
+			font-family: "PT Sans Bold", sans-serif
+			font-size: 21px
+			padding: 10px 20px 10px 79px
+			color: #fff
+			img
+				margin-right: 15px
+		&:hover, &.selected
+			background: #2c373d //2
+.ah-advantages
+	position: relative
+	background: #fecc00
+	&::before
+		position: absolute
+		content: ""
+		background: #fff
+		width: 100%
+		height: 4px
+		left: 0px
+		top: 74px
+		z-index: 9
+.ah-advantages-title
+	display: block
+	font-family: "PT Sans Bold", sans-serif
+	font-size: 33px !important
+	color: #fecc00  !important
+	padding-bottom: 20px !important
+	padding-left: 78px !important
+.ah-content_tab1-title
+	display: block
+	padding: 13px 0px 17px 70px
+	font-family: "PT Sans Bold", sans-serif
+	font-size: 33px
+	background: #fecc00
+	color: #fff
+.ah-content_tab1-contbox
+	padding: 30px 0px
+	height: 100%
+.tabs-container
+	background: #fecc00
+.ah-content_tab1-cont
+	background: #212a2e
+	padding: 103px 50px 15px 69px;
+.ah-content_tab1-span
+	display: block
+	font-family: "PT Sans Bold", sans-serif
+	font-size: 33px
+	color: #fecc00
+.ah-content_tab1-text
+	display: block
+	font-family: "PT Sans", sans-serif
+	font-size: 17px
+	line-height: 21px
+	color: #fff
+	padding: 0
+	margin: 0
+.ah-block4-br
+	display: none
 
 
 
