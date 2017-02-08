@@ -12,10 +12,19 @@
 	.az-info-soc, .az-info-left
 		width: 100%
 		text-align: center
+	.az-form
+		.az-form-title
+			font-size: 30px
 	/**/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
+	.az-slide-title
+		font-size: 67px
+	.az-slider
+		max-width: calc(100% - 420px)
+	.az-form
+		min-width: 420px
 	.az-menu-left
 		>ul
 			display: none
@@ -24,12 +33,34 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+
+	.az-slide-content, .owl-controls, .az-slide-logo
+		text-align: center
+		img
+			display: inline-block !important
+	.az-slider
+		max-width: 100%
+		width: 100%
+		// padding: 0 15px
+	.az-form
+		width: 100%
+		padding: 30px 15px
+		height: auto
+		.az-form-inner-margin-left
+			width: 0
+			max-width: 0
+		.az-form-inner
+			width: 100%
+			margin: 0 auto
+			float: none
 	.az-sm-margin-top17
 		margin-top: 17px
 	/**/
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.az-slide-title
+		font-size: 50px
 	.az-header
 		padding: 15px 0
 	.az-logo, .az-header-middle
@@ -42,6 +73,15 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.az-slide-title
+		font-size: 35px
+		line-height: 55px
+	.az-slider
+		.az-item
+			height: auto
+	.az-form
+		min-width: 0
+		text-align: center
 	.az-menu-left
 		max-width: 45px
 		padding-right: 0
@@ -54,7 +94,13 @@
 		width: 100%
 	input[type="submit"].az-submit-md
 		display: none !important
-
+	.az-xs-margin-right20
+		margin-right: 20px
+	.az-price
+		font-size: 25px
+	.az-price-through
+		&::before
+			top: 52%
 	/**/
 
 

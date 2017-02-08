@@ -354,11 +354,156 @@ li
 	color: #23527c
 /*menu*/
 
+/*whitespace*/
+.az-whitespace
+	width: 100%
+	height: 5px
+	background: #fff
+/*whitespace*/
+
+/*slider and form*/
+.az-slider
+	float: left
+	width: 64.9%
+	max-width: calc(50% + 266px)
+	// height: 50px
+	// outline: 1px solid red
+	.az-item-inner
+		margin-left: auto
+		width: 100%
+		max-width: 1156px
+		// height: 40px
+		// outline: 1px solid red
+		padding: 0 15px
+	.az-item
+		height: 653px
+	.owl-controls
+		position: absolute
+		right: 0
+		bottom: 60px
+		width: 100%
+		max-width: 1148px
+		height: 0
+		z-index: 6
+		padding-left: 15px;
+		.owl-dots
+			// position: relative
+			// left: 0
+			// top: 0
+			// float: left
+			display: inline-block
+			// z-index: 9999
+		.owl-dot
+			width: 19px
+			height: 19px
+			background: url(../img/dot-yellow.png) no-repeat center
+			display: inline-block
+			margin: 0 7px
+			&.active
+				background: url(../img/dot-white.png) no-repeat center
+.az-slide-content
+	padding: 70px 0
+	min-height: 520px
+	img
+		width: auto !important
+		max-width: 100%
+.az-slide-title
+	font-size: 75px
+	color: #fff
+	line-height: 100px
+	display: inline-block
+	text-transform: uppercase
+.az-slide-subtitle
+	font-size: 30px
+	color: #fecc00
+	line-height: 40px
+	display: inline-block
+	text-transform: uppercase
+	font-family: "PT Sans Bold"
+.az-price
+	font-size: 30px
+	color: #fff
+	line-height: 40px
+	display: inline-block
+	font-family: "PT Sans Bold"
+
+.az-form
+	float: right
+	width: 35.1%
+	min-width: calc(50% - 266px)
+	height: 653px
+	background: #fecc00
+	padding-right: 15px
+	padding-top: 110px
+	.az-form-inner-margin-left
+		width: 10%
+		max-width: 61px
+		height: 1px
+		float: left
+	.az-form-inner
+		float: left
+		width: 90%
+		max-width: 548px
+	.az-form-title
+		color: #37474f
+		font-size: 35px
+		line-height: 40px
+		font-family: "PT Sans Bold"
+	input
+		width: 100%
+		margin-bottom: 15px
+		height: 45px
+		background: transparent
+		padding: 0 40px
+		font-family: "PT Sans"
+		color: #fff
+		font-size: 20px
+		border: 1.5px solid #37474f
+		border-radius: 4px
+		outline: none
+		&::-webkit-input-placeholder
+			color: #fff
+		&::-moz-placeholder
+			color: #fff
+		&:-moz-placeholder
+			color: #fff
+		&:-ms-input-placeholder
+			color: #fff
+	input[type="submit"]
+		background: #37474f
+		color: #fecc00
+		text-transform: uppercase
+		&:hover
+			background: #fecc00
+			color: #37474f
+	.az-form-required
+		color: #37474f
+		font-size: 20px
+		font-family: "PT Sans"
+
+.az-price-through
+	position: relative
+	&::before
+		content: ''
+		position: absolute
+		top: 56%
+		left: -10px
+		width: calc(100% + 20px)
+		height: 3px
+		background: #fff
+/*slider and form*/
+
 /*margin*/
+.az-margin-top60
+	margin-top: 60px
 .az-margin-top30
 	margin-top: 30px
+.az-margin-top20
+	margin-top: 20px
 .az-margin-top10
 	margin-top: 10px
 .az-margin-top8
 	margin-top: 8px
+.az-margin-right60
+	margin-right: 60px
 

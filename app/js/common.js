@@ -19,11 +19,11 @@ $(function() {
 	// 		return false;
 	// });
 
-	// $('.owl-carousel').owlCarousel({
-	// 	items: 1,
-	// 	dots: true,
-	// 	margin: 10
-	// });
+	$('.owl-carousel').owlCarousel({
+		items: 1,
+		dots: true,
+		margin: 0
+	});
 
 	// $('#az-modal').click(function(){
 	// 	$('#az-popup').modal('show');
