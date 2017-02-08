@@ -1,7 +1,7 @@
 <section class="az-first-view clearfix">
 	<div class="az-slider">
 		<div class="owl-carousel">
-			<div class="az-item" style="background: url(img/slide1.jpg) no-repeat top center; background-size: cover">
+			<div class="az-item" style="background: url(img/az-slide1.jpg) no-repeat top center; background-size: cover">
 				<div class="az-item-inner">
 					<div class="az-slide-content">
 						<div class="az-slide-logo">
@@ -12,7 +12,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="az-item" style="background: url(img/slide2.jpg) no-repeat top center; background-size: cover">
+			<div class="az-item" style="background: url(img/az-slide2.jpg) no-repeat top center; background-size: cover">
 				<div class="az-item-inner">
 					<div class="az-slide-content">
 						<div class="az-slide-logo">
@@ -24,7 +24,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="az-item" style="background: url(img/slide1.jpg) no-repeat top center; background-size: cover">
+			<div class="az-item" style="background: url(img/az-slide1.jpg) no-repeat top center; background-size: cover">
 				<div class="az-item-inner">
 					<div class="az-slide-content">
 						<div class="az-slide-logo">
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="az-item" style="background: url(img/slide2.jpg) no-repeat top center; background-size: cover">
+			<div class="az-item" style="background: url(img/az-slide2.jpg) no-repeat top center; background-size: cover">
 				<div class="az-item-inner">
 					<div class="az-slide-content">
 						<div class="az-slide-logo">
