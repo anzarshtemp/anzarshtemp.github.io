@@ -41,6 +41,18 @@
 	<?php require_once('includes/block8.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
+	<div class="hidden">
+		<form id="small-dialog" class="zoom-anim-dialog common-form">
+			<span class="form-title">Получите бесплатную консультацию по стоимости и срокам прямо сейчас</span>
+			<span class="form-subtitle">Оставьте заявку и наш специалист перезвонит вам</span>
+			<label>Введите Ваш телефон</label>
+			<input type="text" name="uname">
+			<label>Введите Ваш e-mail (желательно)</label>
+			<input type="text" name="email">
+			<input type="submit" value="Получить консультацию">
+		</form>
+	</div>
+
 	<script src="js/scripts.min.js"></script>
 
 </body>
