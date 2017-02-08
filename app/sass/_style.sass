@@ -578,14 +578,86 @@ li
 
 
 /*video slider*/
+.az-video-slider
+	padding-top: 157px
+	padding-bottom: 70px
+	.owl-prev
+		position: absolute
+		top: calc(50% - 52px)
+		left: 10px
+		border-radius: 50%
+		transform: translate(0, -50%)
+		width: 50px
+		height: 50px
+		background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-left.png) no-repeat 13px center
+	.owl-next
+		position: absolute
+		top: calc(50% - 52px)
+		right: 10px
+		border-radius: 50%
+		transform: translate(0, -50%)
+		width: 50px
+		height: 50px
+		background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-right.png) no-repeat 20px center
 .az-video-outer
 	width: 100%
-	iframe
+	border-radius: 4px
+	overflow: hidden
+	position: relative
+	&:hover
+		.az-play
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+			border-radius: 50%
+			width: 104px
+			height: 104px
+			background: rgba(0,0,0,0.5) url(../img/az-play.png) no-repeat 40px center
+	img
 		width: 100%
 		height: auto
+.az-video-title
+	display: inline-block
+	font-size: 25px
+	color: #37474f
+	font-family: "PT Sans Bold"
+.az-video-subtitle
+	font-size: 20px
+	color: #37474f
+	font-family: "PT Sans"
+	padding: 0
+	margin: 0
+.az-doc-slider
+	padding-top: 70px
+	padding-bottom: 155px
+	.owl-prev
+		position: absolute
+		top: 50%
+		left: 10px
+		border-radius: 50%
+		transform: translate(0, -50%)
+		width: 50px
+		height: 50px
+		background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-left.png) no-repeat 13px center
+	.owl-next
+		position: absolute
+		top: 50%
+		right: 10px
+		border-radius: 50%
+		transform: translate(0, -50%)
+		width: 50px
+		height: 50px
+		background: rgba(255, 255, 255, 0.5) url(../img/az-arrow-right.png) no-repeat 20px center
+
+
 /*margin*/
+.az-margin-bottom65
+	margin-bottom: 65px
 .az-margin-top60
 	margin-top: 60px
+.az-margin-top40
+	margin-top: 40px
 .az-margin-top30
 	margin-top: 30px
 .az-margin-top20

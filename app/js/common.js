@@ -25,10 +25,43 @@ $(function() {
 		margin: 0
 	});
 	$('.owl-carousel2').owlCarousel({
-		items: 3,
+		responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            992:{
+                items:3
+            }
+        },
 		dots: true,
 		margin: 40,
-		loop: true
+		loop: true,
+		nav: true,
+		navText: ["",""]
+	});
+	$('.owl-carousel3').owlCarousel({
+		responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            992:{
+            	items:4
+            }
+        },
+		dots: true,
+		margin: 40,
+		loop: true,
+		nav: true,
+		navText: ["",""]
 	});
 
 	/*my az-tabs*/
