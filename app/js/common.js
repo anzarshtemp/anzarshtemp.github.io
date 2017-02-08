@@ -24,7 +24,26 @@ $(function() {
 		dots: true,
 		margin: 0
 	});
+	$('.owl-carousel2').owlCarousel({
+		items: 3,
+		dots: true,
+		margin: 40,
+		loop: true
+	});
 
+	/*my az-tabs*/
+	$('.az-tab-switcher>div').click(function(){
+		$('.az-tab-switcher>div').removeClass('active');
+		$('.az-tab-content>div').removeClass('active');
+		$(this).addClass('active');
+		var item;
+		$('.az-tab-switcher>div').each(function(i){
+			if($(this).hasClass('active')){
+				item = i;
+			}
+		});
+		$('.az-tab-content>div').eq(item).addClass('active');
+	});
 	// $('#az-modal').click(function(){
 	// 	$('#az-popup').modal('show');
 	// 	// alert(1);

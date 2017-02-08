@@ -19,6 +19,22 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
+	.az-tab-switcher
+		display: block
+		position: absolute
+		left: 50%
+		transform: translate(-50%, 0)
+		bottom: 30px
+		>div
+			width: 19px
+			height: 19px
+			background: url(../img/dot-yellow.png) no-repeat center
+			display: inline-block
+			margin: 0 7px
+			&.active, &:hover
+				background: url(../img/dot-white.png) no-repeat center
+			*
+				display: none
 	.az-slide-title
 		font-size: 67px
 	.az-slider
@@ -73,6 +89,8 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.az-tab-inner
+		text-align: center
 	.az-slide-title
 		font-size: 35px
 		line-height: 55px
