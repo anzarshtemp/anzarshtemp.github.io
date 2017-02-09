@@ -3,7 +3,7 @@
 <section class="ah-advantages" id="tabs">
     <div class="container-fluid">
     	<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 no-padd">
+			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-2 no-padd">
 				<div class="ah-advantages-wrapp">
 					<ul class="tabs-navigation">
 						<li>
@@ -53,7 +53,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 no-padd">
+			<div class="col-lg-8 col-md-8 col-sm-7 col-xs-10 no-padd">
 				<div class="tabs-container">
 					<div id="tab-0">
 						<span class="ah-content_tab1-title">Композитная арматура</span>
@@ -122,3 +122,4 @@
 		</div>
 	</div>
 </section>
+<section class="az-whitespace"></section>

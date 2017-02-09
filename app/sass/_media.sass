@@ -17,6 +17,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+	.ah-footer-wrapp
+		text-align: center
+	.ah-footer-list
+		text-align: center
 	.ah-maincat-imgbox1
 		width: 250px
 	.ah-maincat-wrapp
@@ -36,6 +40,36 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.ah-footer-imgbox
+		text-align: center
+		img
+			display: inline-block
+	.ah-footer-tel, .ah-footer-tel1, .ah-footer-mail, .ah-footer-adr
+		padding-left: 0
+		margin-left: 10px
+		&::before
+			left: unset
+			right: calc(100% + 10px)
+	.ah-content_tab1-title
+		// height: 77.15px
+		margin-left: -20%
+		text-align: center
+	.tabs-navigation li a
+		padding: 10px 15px
+		width: 100%
+		text-align: center
+		img
+			margin-right: 0
+	.ah-content_tab1-title
+		padding: 13px 15px 17px 15px
+	.ah-content_tab1-cont
+		padding: 30px
+	.ah-advantages-title
+		height: 77.15px
+	.tabs-navigation
+		font-size: 0
+		*
+			font-size: 0 !important
 	.common-form
 		padding: 38px 30px
 	.mfp-close, .mfp-close:active
@@ -60,6 +94,20 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.ah-content_tab1-cont
+		padding: 15px
+		text-align: center
+	.tabs-navigation li a
+		padding: 10px 0
+	.ah-content_tab1-title
+		height: 77.15px
+		margin-left: -20%
+		text-align: center
+	.ah-content_tab1-title
+		font-size: 26px
+		padding: 17px 5px 17px 5px
+	.ah-content_tab1-span
+		font-size: 26px
 	.form-title
 		font-size: 28px !important
 	.ah-maincat-wrapp

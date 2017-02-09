@@ -5,7 +5,8 @@
 
 body
 
-
+.error-input
+	border: 1.5px solid red !important;
 .container-fluid
 	max-width: 1780px
 
@@ -34,6 +35,7 @@ li
 	margin-right: auto
 	margin-left: auto
 	/*overflow: hidden;*/
+
 
 .az-select select
 	height: 46px
@@ -102,6 +104,35 @@ li
 .az-select_style
 	position: relative
 	z-index: 2
+
+/*style2*/
+.az-select-style2
+	border: 2px solid #fecc00
+	select
+		color: #fff
+.az-select-style2::before
+	background: #fecc00 url(../img/select-arrow.png) no-repeat center center
+	transform: translate(0, -50%) rotate(180deg)
+	border-top-left-radius: 2px
+	border-bottom-left-radius: 2px
+	border-top-right-radius: 0px
+	border-bottom-right-radius: 0px
+.az-select-focus::before
+	transform: translate(0, -50%)
+	border-top-left-radius: 0px
+	border-bottom-left-radius: 0px
+	border-top-right-radius: 2px
+	border-bottom-right-radius: 2px
+.az-select-style2 .az-options
+	bottom: calc(100% - 3px)
+	background: #fecc00
+	top: unset
+
+.az-select-style2 .az-options div[data-val]
+	color: #37474f
+	width: 100%
+.az-select-style2 .az-options div[data-val]:hover
+	color: #37474f
 /*select*/
 
 .az-city

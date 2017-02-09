@@ -53,9 +53,9 @@
 		<div class="az-form-inner-margin-left"></div>
 		<div class="az-form-inner">
 			<span class="az-form-title">Подписаться на свежие новости и акции компании</span>
-			<form action="/" class="az-margin-top60">
+			<form action="/" class="az-send az-margin-top60">
 				<input type="text" name="uname" placeholder="Введите Ваше имя*">
-				<input type="text" name="tel" placeholder="Введите Ваш номер телефона*">
+				<input type="text" name="tel" class="phone" placeholder="Введите Ваш номер телефона*">
 				<input type="text" name="email" placeholder="Введите Ваш e-mail*">
 				<input type="submit" value="Подписаться">
 			</form>

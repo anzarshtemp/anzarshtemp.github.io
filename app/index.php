@@ -42,13 +42,13 @@
 	<?php require_once('includes/footer.php'); ?>
 
 	<div class="hidden">
-		<form id="small-dialog" class="zoom-anim-dialog common-form">
+		<form id="small-dialog" class="az-send2 zoom-anim-dialog common-form">
 			<div class="ah-upimg">
 				<img src="img/ah-popimg.png" style="width: 110px; height: 120px;" alt="ah-popimg.png">
 			</div>
 			<span class="form-title">ОСТАВЬТЕ ЗАЯВКУ</span>
 			<span class="form-subtitle">И НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В ТЕЧЕНИИ ОДНОЙ МИНУТЫ</span>
-			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
+			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___ __ __">
 			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
 		</form>
 	</div>
