@@ -1,6 +1,6 @@
 <div class="clearfix"></div>
 
-<section class="ah-comparative-box">
+<section class="ah-comparative-box hidden-xs">
     <div class="container-fluid">
     	<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

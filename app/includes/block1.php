@@ -49,7 +49,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="az-form">
+	<div class="az-form hidden-sm hidden-xs">
 		<div class="az-form-inner-margin-left"></div>
 		<div class="az-form-inner">
 			<span class="az-form-title">Подписаться на свежие новости и акции компании</span>

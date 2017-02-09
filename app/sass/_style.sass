@@ -29,7 +29,10 @@ li
 	position: relative
 	cursor: pointer
 	border-radius: 4px
+	text-align: left
 	max-width: 390px
+	margin-right: auto
+	margin-left: auto
 	/*overflow: hidden;*/
 
 .az-select select
@@ -102,7 +105,7 @@ li
 /*select*/
 
 .az-city
-	padding-left: 35px
+	padding-left: 45px
 	display: inline-block
 	font-size: 20px
 	font-family: "PT Sans"
@@ -113,7 +116,7 @@ li
 		position: absolute
 		top: 50%
 		transform: translate(0, -50%)
-		left: 0
+		left: 4px
 		width: 23px
 		height: 30px
 		background: url(../img/az-baloon.png) no-repeat left top
@@ -151,9 +154,10 @@ li
 		width: 31px
 		height: 23px
 		background: url(../img/az-envelope.png) no-repeat left top
-
+.az-info
+	text-align: center
 .az-info-soc
-	float: right
+	// float: right
 	a
 		display: inline-block
 		width: 48px
@@ -435,6 +439,18 @@ li
 	background: #fecc00
 	padding-right: 15px
 	padding-top: 110px
+	position: relative
+	&::before
+		position: absolute
+		top: 122px
+		left: -13px
+		border-right: 14px solid #fecc00
+		border-top: 13px solid transparent
+		border-bottom: 13px solid transparent
+		content: ''
+		width: 0
+		height: 0
+		z-index: 3
 	.az-form-inner-margin-left
 		width: 10%
 		max-width: 61px
@@ -652,8 +668,11 @@ li
 
 
 /*margin*/
+
 .az-margin-bottom65
 	margin-bottom: 65px
+.az-margin-top77
+	margin-top: 77px
 .az-margin-top60
 	margin-top: 60px
 .az-margin-top40
